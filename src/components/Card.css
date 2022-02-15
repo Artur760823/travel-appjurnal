@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+.card{
+  display: flex;
+  padding: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2rem;
+}
+.card__img{
+  width: 250px;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+.card__img:hover{
+  position: absolute;
+  z-index: 99;
+  width: 65%;
+  cursor: pointer;
+}
+.card__notes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.card__country{
+  font-weight: bold;
+}
